@@ -1,40 +1,38 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
-  "solution": {
-    "name": "helloworld-webpart-client-side-solution",
-    "id": "9192cb71-6e03-4b5d-8049-af36edbc4a6b",
-    "version": "1.0.0.0",
-    "includeClientSideAssets": true,
-    "skipFeatureDeployment": true,
-    "isDomainIsolated": false,
-    "developer": {
-      "name": "",
-      "websiteUrl": "",
-      "privacyUrl": "",
-      "termsOfUseUrl": "",
-      "mpnId": "Undefined-1.14.0"
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+    "solution": {
+        "name": "scriptEditorSPOModern-webpart-client-side-solution",
+        "id": "9192cb71-6e03-4b5d-8049-af36edbc4a6b",
+        "version": "1.0.0.0",
+        "includeClientSideAssets": true,
+        "skipFeatureDeployment": true,
+        "isDomainIsolated": false,
+        "developer": {
+            "name": "",
+            "websiteUrl": "",
+            "privacyUrl": "",
+            "termsOfUseUrl": "",
+            "mpnId": "Undefined-1.14.0"
+        },
+        "metadata": {
+            "shortDescription": {
+                "default": "scriptEditorSPOModern-webpart description"
+            },
+            "longDescription": {
+                "default": "scriptEditorSPOModern-webpart description"
+            },
+            "screenshotPaths": [],
+            "videoUrl": "",
+            "categories": []
+        },
+        "features": [{
+            "title": "scriptEditorSPOModern-webpart Feature",
+            "description": "The feature that activates elements of the scriptEditorSPOModern-webpart solution.",
+            "id": "5625bc51-01da-4374-a904-2e57a708a2fc",
+            "version": "1.0.0.0"
+        }]
     },
-    "metadata": {
-      "shortDescription": {
-        "default": "helloworld-webpart description"
-      },
-      "longDescription": {
-        "default": "helloworld-webpart description"
-      },
-      "screenshotPaths": [],
-      "videoUrl": "",
-      "categories": []
-    },
-    "features": [
-      {
-        "title": "helloworld-webpart Feature",
-        "description": "The feature that activates elements of the helloworld-webpart solution.",
-        "id": "5625bc51-01da-4374-a904-2e57a708a2fc",
-        "version": "1.0.0.0"
-      }
-    ]
-  },
-  "paths": {
-    "zippedPackage": "solution/helloworld-webpart.sppkg"
-  }
+    "paths": {
+        "zippedPackage": "solution/helloworld-webpart.sppkg"
+    }
 }

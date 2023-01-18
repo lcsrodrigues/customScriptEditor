@@ -15,7 +15,7 @@ export class developerDetails implements IPropertyPaneField<IPropertyPaneCustomF
     private onRender(elem: HTMLElement): void {
         elem.innerHTML = `
     <div style="margin-top: 30px">
-      <div style="float:right">Author: <a href="https://torpedo.pt" target="_blank" tabindex="-1">Torpedo.pt</a></div>
+      <div style="float:right">Author: <a href="https://github.com/lcsrodrigues" target="_blank" tabindex="-1">Lucas Rodrigues</a></div>
     </div>`;
     }
 }
